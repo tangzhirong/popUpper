@@ -2,11 +2,12 @@
 浮出层组件——基于jquery、jqueryUI、RequireJS
 
 Usage：
+=====
   在main.js中的alert方法中传入自定义参数，比如：
   
   require(['jquery','window'],function($,w){
     $("#btn").click(function(){
-        new w.Window().alert({
+      new w.Window().alert({
             title:"提示",    //标题部分
             content:"欢迎来到组件开发的世界！",   //内容部分
             footer:"确定",   //底部按钮文字
