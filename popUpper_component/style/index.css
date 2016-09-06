@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#btn{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: black;
+    margin:-100px 0 0 -100px;
+}
+.window_box{
+    width: 400px;
+    height: 230px;
+    margin: 200px auto;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    font-family: "Microsoft Yahei";
+
+}
+
+.window_header{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid black;
+    background-color:white;
+}
+
+.window_content{
+    padding: 20px;
+    height: 100px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.window_footer{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.window_mask{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+/*  蓝色主题的定制皮肤  */
+
+.blue_header{
+    color:#088ef0;
+}
+
+.blue_content{
+    background-color: #088ef0;
+    font-size: 20px;
+    color: white;
+}
+
+.blue_footer{
+    background-color: #088ef0;
+}
