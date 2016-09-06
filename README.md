@@ -35,16 +35,16 @@ Usage：
       组件可定制皮肤，在index.css中编写皮肤样式，类名为：参数中的styleClass+"_header、_content、_footer"：
   
       /*  蓝色主题的定制皮肤  */
-  .blue_header{
-      color:#088ef0;
-  }
+      .blue_header{
+          color:#088ef0;
+      }
 
-  .blue_content{
-      background-color: #088ef0;
-      font-size: 20px;
-      color: white;
-  }
+      .blue_content{
+          background-color: #088ef0;
+          font-size: 20px;
+          color: white;
+      }
 
-  .blue_footer{
-      background-color: #088ef0;
-  }
+      .blue_footer{
+          background-color: #088ef0;
+      }
