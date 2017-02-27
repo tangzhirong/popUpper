@@ -1,6 +1,6 @@
 # popUpper
 浮出层组件——基于jquery、jqueryUI、RequireJS
-
+![image](https://github.com/tangzhirong/popUpper/blob/master/popUpper.png)
 Usage：
 =====
   在main.js中的alert方法中传入自定义参数，比如：
